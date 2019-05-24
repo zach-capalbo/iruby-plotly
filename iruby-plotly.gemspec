@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'iruby-plotly'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = Date.today
   s.summary     = 'Plotting shim for IRuby & Plotly'
   s.description = 'Plot with IRuby'
