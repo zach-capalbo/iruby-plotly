@@ -22,7 +22,7 @@ module IRuby
       elsif not data.first.respond_to?(:keys)
         data = [{y:data, x:(1..data.size).to_a}.merge(options)]
       end
-    IRuby.convert({data: data, layout: options.merge({height: DEFAULT_PLOT_HEIGHT})}, mime: "application/vnd.plotly.v1+json")
+        IRuby.convert({data: data, layout: {height: DEFAULT_PLOT_HEIGHT}.merge(options)}, mime: "application/vnd.plotly.v1+json")
   end
 
   def self.plotly(data, layout = {})
