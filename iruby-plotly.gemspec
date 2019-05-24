@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Plot with IRuby'
   s.authors     = ["Zach Capalbo"]
   s.email       = "zach.geek@gmail.com"
-  s.files       = Dir["lib/**/*"] + %w[LICENSE Readme.md]
+  s.files       = Dir["lib/**/*"] + %w[LICENSE README.md]
   s.homepage    = 'https://github.com/zach-capalbo/irub-plotly'
   s.license     = 'MIT'
 end
