@@ -2,7 +2,17 @@
 
 A shim to support using [Plotly](https://plot.ly/) in IRuby Jupyter notebooks.
 
-Usage:
+## Requirements
+
+* IRuby
+* JupyterLab
+* [plotly-extension](https://github.com/jupyterlab/jupyter-renderers/tree/master/packages/plotly-extension)
+
+```bash
+jupyter labextension install @jupyterlab/plotly-extension
+```
+
+## Usage
 
 ```ruby
 require 'iruby-plotly'
