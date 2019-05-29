@@ -5,7 +5,7 @@ A shim to support using [Plotly](https://plot.ly/) in IRuby Jupyter notebooks.
 Usage:
 
 ```ruby
-require 'iruby-plotly'
+require 'iruby/plotly'
 
 IRuby.plotly([{y: [1,2,5,20]}])
 ```
